@@ -1,6 +1,6 @@
 function shortcut(s1, s2) {
-  const isEitherEmpty = str1.length === 0 || str2.length === 0;
-return !isEitherEmpty ? str1[0] + str2[0] : '';
+  const isEitherEmpty = s1.length === 0 || s2.length === 0;
+return !isEitherEmpty ? s1[0] + s2[0] : '';
 
 }
 
