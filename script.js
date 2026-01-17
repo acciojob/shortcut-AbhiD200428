@@ -1,5 +1,7 @@
 function shortcut(s1, s2) {
-  // your code here
+  const isEitherEmpty = str1.length === 0 || str2.length === 0;
+return !isEitherEmpty ? str1[0] + str2[0] : '';
+
 }
 
 // Do not change the code below.
